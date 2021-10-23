@@ -6,7 +6,7 @@ function preload() {
 }
 
 function setup() {
-    let cnv = createCanvas(500, 500);
+    let cnv = createCanvas(400, 400);
     for (let s of music){
         s.playMode('restart');
     }
